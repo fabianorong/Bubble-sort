@@ -16,14 +16,10 @@ def bubble_sort(array)
                 i += 1                   
             
             end  
-        end
+        end        
         
-        if array.first != array.min
-            i = 0
-            j = 1
-        elsif 
-            array.each_cons(2).all?{|left, right| left <= right} == true 
-            is_sorted = true
+        if array.each_cons(2).all?{|left, right| left <= right} == true
+            is_sorted = true         
         else
             i = 0
             j = 1            
