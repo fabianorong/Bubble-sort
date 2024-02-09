@@ -10,11 +10,9 @@ def bubble_sort(array)
                 array[i], array[j] = array[j], array[i]
                 j += 1
                 i += 1
-
             elsif array[j] > array[i] || array[j] == array[i]
                 j += 1
-                i += 1                   
-            
+                i += 1       
             end  
         end        
         
